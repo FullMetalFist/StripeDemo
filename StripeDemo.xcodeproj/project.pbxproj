@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		60205A5B740968413B6B9AAB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 02F43CD4575852D8A7065AB7 /* libPods.a */; };
+		7C12BED61AF3FEC10056CF62 /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C12BED51AF3FEC10056CF62 /* PassKit.framework */; };
 		7CE0EB271AF27EC500E9355F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CE0EB261AF27EC500E9355F /* main.m */; };
 		7CE0EB2A1AF27EC500E9355F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CE0EB291AF27EC500E9355F /* AppDelegate.m */; };
 		7CE0EB2D1AF27EC500E9355F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CE0EB2C1AF27EC500E9355F /* ViewController.m */; };
@@ -31,6 +32,7 @@
 		02F43CD4575852D8A7065AB7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AEC1F24A0F1DE0BAD8400D6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		163DAC8191C0BCB1D5B4F979 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		7C12BED51AF3FEC10056CF62 /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
 		7CE0EB211AF27EC500E9355F /* StripeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StripeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CE0EB251AF27EC500E9355F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CE0EB261AF27EC500E9355F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C12BED61AF3FEC10056CF62 /* PassKit.framework in Frameworks */,
 				60205A5B740968413B6B9AAB /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -70,6 +73,7 @@
 		4C8C6894FB1EAB1B688D889D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7C12BED51AF3FEC10056CF62 /* PassKit.framework */,
 				02F43CD4575852D8A7065AB7 /* libPods.a */,
 			);
 			name = Frameworks;

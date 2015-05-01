@@ -11,5 +11,6 @@
 @interface Constant : NSObject
 
 extern NSString *const STRIPE_API_KEY;
+extern NSString *const APPLE_MERCHANT_ID;
 
 @end

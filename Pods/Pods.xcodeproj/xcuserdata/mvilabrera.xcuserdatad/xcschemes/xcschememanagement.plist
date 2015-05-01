@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Pods-ApplePayStubs.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Stripe.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0A4DAB029E80727D12C7894C</key>
+		<key>008CFB4E83467EB8B3C28106</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>300F9B942CDD5417F0718A4E</key>
+		<key>2A0395C615CA55A1D78BCDAB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>542F155F3002AB84D942FCED</key>
 		<dict>
 			<key>primary</key>
 			<true/>
